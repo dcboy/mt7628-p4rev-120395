@@ -1,0 +1,8 @@
+config MT_STA_SUPPORT
+	tristate "Mediatek 802.11n STA support"
+#	depends on NET_RADIO 
+	select WIRELESS_EXT
+	select WEXT_SPY
+	select WEXT_PRIV
+
+
